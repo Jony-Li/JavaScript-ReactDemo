@@ -27,6 +27,7 @@
     #jspm install react-dom
     #jspm install semantic-ui
     #jspm install css
+    #jspm install jquery
     //备注：react 语法是jsx语法。
   ```
   * 5.安装browser-sync 检测文件的改变，减少每次手动刷新；
