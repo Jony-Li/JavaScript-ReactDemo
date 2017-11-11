@@ -10,7 +10,9 @@
 
 ## 创建项目，例如：JavaScript-ReactDemo
   * 1.进入项目目录，执行以下命令：
-  * #npm init  // 回车 会自动创建package.json   package-lock.json
+  ```jsx
+    #npm init    // 回车 会自动创建package.json   package-lock.json
+  ```
   * 2.将JSPM 工具导入项目
   * #npm install  jspm --save-dev
   * 3.创建JSPM 配置文件
