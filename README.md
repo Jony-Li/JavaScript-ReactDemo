@@ -14,16 +14,26 @@
     #npm init    // 回车 会自动创建package.json   package-lock.json
   ```
   * 2.将JSPM 工具导入项目
-  * #npm install  jspm --save-dev
+  ```jsx
+    #npm install  jspm --save-dev
+  ```
   * 3.创建JSPM 配置文件
-  * #jspm init           // 会创建config.js  脚手架文件
+  ```jsx
+    #jspm init    // 会创建config.js  脚手架文件
+  ```
   * 4.导入React及三方库
-  * #jspm install react
-  * #jspm install react-dom
-  * #jspm install semantic-ui
-  * #jspm install css
-  * 备注：react 语法是jsx语法。
+  ```jsx
+    #jspm install react
+    #jspm install react-dom
+    #jspm install semantic-ui
+    #jspm install css
+    //备注：react 语法是jsx语法。
+  ```
   * 5.安装browser-sync 检测文件的改变，减少每次手动刷新；
-  * #npm install browser-sync
+  ```jsx
+    #npm install browser-sync
+  ```
   * 6.启动browser-sync 指定监听的文件
-  * browser-sync start --server --no-notify --files 'index.html, app/**/*.js'
+  ```jsx
+    #browser-sync start --server --no-notify --files 'index.html, app/**/*.js'
+  ```
