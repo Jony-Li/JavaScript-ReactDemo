@@ -1,5 +1,5 @@
 # JavaScript-ReactDemo
-#环境准备
+# 环境准备
   * 1.安装Node.js  下载地址：https://nodejs.org/zh-cn/download/
   * 备注：NodeJS 安装完成后会自带npm 包管理工具
   * 2.cmd运行命令行 查看NodeJS是否安装成功
@@ -8,7 +8,7 @@
   * 3.安装JSPM 包管理工具
   * #npm install -g jspm
 
-#创建项目目录，例如：ReactDemo
+# 创建项目目录，例如：ReactDemo
   * 1.进入项目目录，执行以下命令：
   * #npm init  // 回车 会自动创建package.json   package-lock.json
   * 2.将JSPM 工具导入项目
