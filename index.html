@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ReactDemo</title>
+</head>
+<body>
+<div>Test</div>
+
+
+</body>
+<script src="jspm_packages/system.js"></script>
+<script src="config.js"></script>
+
+<script>
+    /**
+     * systemjs是模块加载器，它可以导入任何流行格式的模块(CommonJs,UMD,AMD,ES6),它是工作在 ES6模块加载polyfill 之上，
+     * 它能够很好的处理和检测所使用的格式。 systemjs 也能使用插件转换es6（ 用 Babel 或者 Traceur）或者转换TypeScript
+     * 和 CoffeeScript代码。你只需要在导入你的模块之前使用 System.config({ … }) 进行系统配置,jspm使用systemjs管理包
+     * 及其依赖项，这样我们就不用担心包不按正确的顺序加载
+     *
+     */
+    //采用systemjs加载js模块
+    System.import('app/main.js');
+
+</script>
+</html>
