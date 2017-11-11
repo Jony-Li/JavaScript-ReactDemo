@@ -40,7 +40,7 @@ System.config({
     "github:jspm/nodelibs-http@1.7.1": {
       "Base64": "npm:Base64@0.2.1",
       "events": "github:jspm/nodelibs-events@0.1.1",
-      "inherits": "npm:inherits@2.0.1",
+      "inherits": "npm:inherits@2.0.3",
       "stream": "github:jspm/nodelibs-stream@0.1.0",
       "url": "github:jspm/nodelibs-url@0.1.0",
       "util": "github:jspm/nodelibs-util@0.1.0"
@@ -210,7 +210,7 @@ System.config({
       "buffer": "github:jspm/nodelibs-buffer@0.1.1",
       "core-util-is": "npm:core-util-is@1.0.2",
       "events": "github:jspm/nodelibs-events@0.1.1",
-      "inherits": "npm:inherits@2.0.3",
+      "inherits": "npm:inherits@2.0.1",
       "isarray": "npm:isarray@0.0.1",
       "process": "github:jspm/nodelibs-process@0.1.2",
       "stream-browserify": "npm:stream-browserify@1.0.0",
@@ -237,7 +237,7 @@ System.config({
     },
     "npm:stream-browserify@1.0.0": {
       "events": "github:jspm/nodelibs-events@0.1.1",
-      "inherits": "npm:inherits@2.0.3",
+      "inherits": "npm:inherits@2.0.1",
       "readable-stream": "npm:readable-stream@1.1.14"
     },
     "npm:string_decoder@0.10.31": {
